@@ -5,6 +5,12 @@ public class StarTriangle5 {
      */
    public static void starTriangle5() {
       // TODO: Fill in this function
+      String space = " ";
+      String star = "*";
+      for (int i = 0; i < 5; i+=1){
+         System.out.print(space.repeat(4-i));
+         System.out.println(star.repeat(i+1));
+      }
    }
    
    public static void main(String[] args) {
